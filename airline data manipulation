@@ -1,0 +1,18 @@
+import pandas as pd
+flights=pd.read_csv("Air_Traffic_Passenger_Statistics.csv")
+flights.rename(columns = {'Activity Period':'PNR'}, inplace = True) 
+
+import string 
+import random 
+ 
+def rand():
+  N = 7
+  res = ''.join(random.choices(string.ascii_uppercase +  string.digits, k = N)) 
+  return(str(res))
+
+L=[]
+for i in range(0,15007):
+  L.append(rand())
+
+p=pd.DataFrame(L,columns=["pnr"])
+pnr_df=flights["PNR"]
