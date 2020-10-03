@@ -1,3 +1,8 @@
+# This python code is used to take in PNR of flight , compare with the database and returns flight time , destination , layover time etc . 
+# AIM : to use this extracted data , integrate with the SmartWatch data and return data to the user that instructs him/her on what the status is , what to do if there 
+# is lack of rest , sleep , nutrition etc.
+
+
 import pandas as pd
 flights=pd.read_csv("Air_Traffic_Passenger_Statistics.csv")
 flights.rename(columns = {'Activity Period':'PNR'}, inplace = True) 
