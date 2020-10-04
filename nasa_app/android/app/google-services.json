@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1011748811678",
+    "firebase_url": "https://my-project-1554107915174.firebaseio.com",
+    "project_id": "my-project-1554107915174",
+    "storage_bucket": "my-project-1554107915174.appspot.com"
+  },
+  "client": [
+        {
+      "client_info": {
+        "mobilesdk_app_id": "1:1011748811678:android:b68aba43db26a72e295c8f",
+        "android_client_info": {
+          "package_name": "com.daksh.nasa_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1011748811678-29khlhq6kn4htptjcr859t1cpo0au1t4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRTDug7WIKlKA_VDK3lNfcOwX_0XJ_3Fo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1011748811678-29khlhq6kn4htptjcr859t1cpo0au1t4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
